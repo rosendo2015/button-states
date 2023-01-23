@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;700&family=Roboto&display=swap"
+        rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buttons Stats</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <main>
+        <div id="app">
+            <div class="wrapper-buttons">
+                <div class="header">
+                    <h2>Tipos de botão</h2>
+                    <p>Dentro de um layout, botões servem para destacar ações importantes a serem tomadas. Acompanhe
+                        abaixo
+                        um exemplo de tipos e propriedades.</p>
+                </div>
+                <div class="table">
+
+                    <table>
+                        <thead>
+                            <tr>
+                            <th></th>
+                            <th>BOTÃO PRIMÁRIO</th>
+                            <th>BOTÃO SECUNDÁRIO</th>
+                            <th>BOTÃO TERCIÁRIO</th>
+                            <th>CURSOR</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th>DEFAULT</th>
+                            <td><button class="default-primary">DEFAULT PRIMARY</button></td>
+                            <td><button class="default-secondary">DEFAULT SECUNDARY</button></td>
+                            <td><button class="default-tertiary">DEFAULT TERTIARY</button></td>
+                            <td><img src="./assets/cursor-default.svg" alt=""></td>
+                            
+                        </tr>
+                        <tr>
+                            <th>HOVER</th>
+                            <td><button class="hover-primary">HOVER PRIMARY</button></td>
+                            <td><button class="hover-secondary">HOVER SECUNDARY</button></td>
+                            <td><button class="hover-tertiary">HOVER TERTIARY</button></td>
+                            <td><img src="./assets/cursor-hover.svg" alt=""></td>
+                            
+                        </tr>
+                        <tr>
+                            <th>FOCUS</th>
+                            <td><button class="focus-primary">FOCUS PRIMARY</button></td>
+                            <td><button class="focus-secondary">FOCUS SECUNDARY</button></td>
+                            <td><button class="focus-tertiary">FOCUS TERTIARY</button></td>
+                            <td><img src="./assets/cursor-default.svg" alt=""></td>
+                            
+                        </tr>
+                        <tr>
+                            <th>DISABLED</th>
+                            <td><button class="disabled-primary">DISABLED PRIMARY</button></td>
+                            <td><button class="disabled-secondary">DISABLED SECUNDARY</button></td>
+                            <td><button class="disabled-tertiary">DISABLED TERTIARY</button></td>
+                            <td><img src="./assets/cursor-disabled.svg" alt=""></td>                          
+
+                        </tr>
+                        <tr>
+                            <th>LOADING</th>
+                            <td><button class="loading-primary"><b><img src="./assets/icon-loading.svg" alt=""><span> LOADING PRIMARY </span></b></button></td>
+                            <td><button class="loading-secondary"><b><img src="./assets/icon-loading.svg" alt=""><span> LOADING SECUNDARY </span></b></button></td>
+                            <td><button class="loading-tertiary"><b><img src="./assets/icon-loading.svg" alt=""><span> LOADING TERTIARY </span></b></button></td>
+                            <td><img src="./assets/cursor-loading.svg" alt=""></td>
+                            
+                        </tr>
+                        <tr>
+                            <th>MOVABLE</th>
+                            <td><button class="movable-primary"><b><img src="./assets/icon-movable.svg" alt=""> <span>MOVABLE PRIMARY</span></b></button></td>
+                            <td><button class="movable-secondary"><b><img src="./assets/icon-movable.svg" alt=""> <span>MOVABLE SECUNDARY</span></b></button></td>
+                            <td><button class="movable-tertiary"><b><img src="./assets/icon-movable.svg" alt=""> <span>MOVABLE TERTIARY</span></b></button></td>
+                            <td><img src="./assets/cursor-movable.svg" alt=""></td>
+                            
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            </div>
+            <div class="result">
+                <div class="header">
+                    <h2>Teste os botões</h2>
+                    <p>Interaja com os botões e observe a mudança de aparência e de cursores</p>
+                </div>
+                    <div class="wrapper-result">
+                        
+                            <button class="default-primary">INTERAJA COMIGO</button>
+                            <button class="disabled-secondary">INTERAJA COMIGO</button>
+                            <button class="movable-tertiary"><b><img src="./assets/icon-movable.svg" alt=""> <span>INTERAJA COMIGO</span></b></button>
+                        
+                    </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>

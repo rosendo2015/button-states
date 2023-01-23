@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #0b0911;
+}
+body,
+button {
+  color: #fff;
+  font-family: "Inter", sans-serif;
+}
+#app {
+  margin: 0 auto;
+  width: 1517px;
+  height: 947px;
+  padding: 107px 77px;
+  display: flex;
+}
+.header h2 {
+  font-weight: 700;
+  font-size: 32px;
+}
+p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 19.2059px;
+  line-height: 23px;
+  margin: 8px 0 68px;
+}
+.table {
+  text-align: center;
+  border: 2px solid #1c162c;
+  border-radius: 8px;
+}
+button {  
+  background: #123;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 9999px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  cursor: pointer;
+  
+}
+.default-primary{
+  background: #8257e5;
+}
+.default-secondary{
+  background: #3c3748;
+}
+.default-tertiary{
+  background: none;
+}
+.hover-primary{
+  background: #9674e5;
+}
+.hover-secondary{
+  background: #6a617f;
+}
+.hover-tertiary{
+  background: none;
+}
+.focus-primary{
+  background: #8257e5;
+  border: 2px solid #d9cdf7;
+}
+.focus-secondary{
+  background: #3c3748;
+  border: 2px solid #d9cdf7;
+}
+.focus-tertiary{
+  background: none;
+  border: 2px solid #d9cdf7;
+}
+.disabled-primary{
+  background: #8257e5;
+  border: none;
+  color: #d9cdf7;
+}
+.disabled-secondary{
+  background: #3c3748;
+  border: none;
+  color: #d9cdf7;
+}
+.disabled-tertiary{
+  background: none;
+  color: #d9cdf7;
+}
+b{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+.loading-primary{  
+  background: #8257e5;
+}
+.loading-secondary{  
+  background: #3c3748;
+}
+.loading-tertiary{  
+  background: none;
+}
+.movable-primary{  
+  background: #8257e5;
+}
+.movable-secondary{  
+  background: #3c3748;
+}
+.movable-tertiary{  
+  background: none;
+}
+
+.wrapper-buttons {  
+  width: 100%;
+  padding: 32px;
+  background: #0b0911;
+}
+.result {
+  padding: 32px;
+  background: #130f1e;
+}
+table {
+  
+  border: 5px solid #1c162c;
+  border-collapse: collapse;
+  width: 100%;
+}
+table tr td{
+  padding: 16px 0;
+  
+}
+table tr th {
+  padding: 10px 10px;
+  background: #1c162c;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 13px;
+}
+
+.wrapper-result {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-itens: center;
+  justify-content: center;
+  gap: 32px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+}
