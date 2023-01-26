@@ -29,14 +29,7 @@ p {
   line-height: 23px;
   margin: 8px 0 68px;
 }
-.primary{
-  --bg-default: #8257e5;
-  --bg-hover: #9674e5;
-}
-.primary{
-  --bg-default: #3c3748;
-  --bg-hover: #6a617f;
-}
+
 .table {
   text-align: center;
   border: 2px solid #1c162c;
@@ -102,7 +95,7 @@ button {
   border: 2px solid #d9cdf7;
 }
 .focus-tertiary{
-  background: none;
+  background: transparent;
   outline: 2px solid #d9cdf7;
   border: 2px solid #d9cdf7;
 }
@@ -111,15 +104,18 @@ button {
   border: none;
   color: #d9cdf7;
   opacity: 0.56;
+  cursor: not-allowed;
 }
 .disabled-secondary{
   background: #3c3748;
-  border: none;
+  border: transparent;
   color: #d9cdf7;
+  cursor: not-allowed;
 }
 .disabled-tertiary{
-  background: none;
+  background: transparent;
   color: #d9cdf7;
+  cursor: not-allowed;
 }
 b{
   display: flex;
@@ -175,36 +171,44 @@ button.result-primary{
   gap: 8px;
 }
 
-.wrapper-result button.result-primary{
+.wrapper-result button.default-primary{
   background: #8257e5;
 }
-.wrapper-result button.result-primary:hover{
+.wrapper-result button.hover-primary:hover{
   background: #9674e5;
 }
-.wrapper-result button.result-primary:focus{
+.wrapper-result button.focus-primary:focus{
   background: #8257e5;
   outline: 2px solid #d9cdf7;
   border: 2px solid #d9cdf7;
 }
-.wrapper-result button.result-primary:disabled{
+.wrapper-result button.disabled-primary:disabled{
   background: #8257e5;
   border: none;
   color: #d9cdf7;
   opacity: 0.56;
   cursor: not-allowed;
 }
-.wrapper-result button.result-primary.loading{
+.wrapper-result button.loading-primary.loading,
+.wrapper-result button.loading-secondary.loading,
+.wrapper-result button.loading-tertiary.loading{
   cursor: progress;
 }
 
-.wrapper-result button.result-primary.loading i{
+.wrapper-result button.loading-primary.loading i,
+.wrapper-result button.loading-secondary.loading i,
+.wrapper-result button.loading-tertiary.loading i{
  font-size: 16px; 
  animation: spin 900ms infinite linear;
 }
-.wrapper-result button.result-primary.movable{
+.wrapper-result button.movable-primary.movable,
+.wrapper-result button.movable-secondary.movable,
+.wrapper-result button.movable-tertiary.movable{
   cursor: move;
 }
-.wrapper-result button.result-primary.movable i{
+.wrapper-result button.movable-primary.movable i,
+.wrapper-result button.movable-secondary.movable i,
+.wrapper-result button.movable-tertiary.movable i{
   font-size: 18px;
 }
 @keyframes spin {
@@ -215,4 +219,3 @@ button.result-primary{
     transform: rotate(360deg);
   }
 }
-
