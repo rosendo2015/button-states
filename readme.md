@@ -1,10 +1,9 @@
-# Dev Links
+# #BoraCoda Rocketseat - Desafio 03 
 
 ![preview](./.github/preview.png)
 
-> <b>Trilha Dev Links </b>
 
-> Projeto feito no curso Dev Links do ano de 2023 - <b>DEV LINKS</b> Rocketseat :rocket:. 
+> Projeto feito no terceiro desafio do #BoraCoda - <b>Estados dos botões - </b> Rocketseat :rocket:. 
 
 ## :hammer_and_wrench: Tecnologias
 
@@ -18,7 +17,7 @@
 ### HTML
 - Tags semânticas
 ### CSS
-- Mobile first
+- Tabalhando com tabelas
 - display flex
 - Centralizar os elementos HTML usando FLEXBOX
 
@@ -27,14 +26,10 @@
 - DOM
 - Orientação a objetos;
 - Estrutura de dados com objetos;
-- Classes e muito mais.
+- Classes
 - Funções em Javascript
 - Clean Code
 - Refatoração
-
-## :dart:  Desafio
-
-:heavy_check_mark:  A ideia aqui é você construir seu primeiro site seguindo o designer do figma com javascript, css e html que seja visualmente bonita que irá possibilitar o usuário cadastrar seus links pessoais  e suas redes sociais favoritas.
 
 ## :mailbox_closed: Contatos
 

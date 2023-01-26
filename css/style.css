@@ -125,12 +125,15 @@ b{
 }
 .loading-primary{  
   background: #8257e5;
+ cursor: progress;
 }
 .loading-secondary{  
   background: #3c3748;
+ cursor: progress;
 }
 .loading-tertiary{  
   background: none;
+   cursor: progress;
 }
 .movable-primary{  
   background: #8257e5;
